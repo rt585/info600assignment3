@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', assignClickHandler)
 function assignClickHandler () {
   document.getElementById('addRec').addEventListener('click', function () {
     const startYear = document.getElementById('startYear').value
-    if (startYear <= 2000) {
+    if (startYear < 2000) {
       window.alert('Incorrect year: ' + startYear)
       return
     }
@@ -11,7 +11,9 @@ function assignClickHandler () {
     const major = document.getElementById('major').value
 
     const date = new Date()
-    const time = date.getHours() + ':' + date.getMinutes()
+    const hours = date.getHours().toString().padStart(2, '0')
+    const minutes = date.getMinutes().toString().padStart(2, '0')
+    const time = hours + ':' + minutes
 
     const newEntry = time + ' - ' + fullName + ', ' + major + ', ' + startYear
 
