@@ -1,10 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Student Record Management</title>
     <link rel="stylesheet" href="css/main.css" />
-    <script src="js/main.js"></script>
+    <!-- Importing AJAX library-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+
+
 </head>
 <body>
 
@@ -27,7 +33,15 @@
 </div>
 
 <div id="buttonParent">
-<input type="button" value="Add Record" id="addRec" />
+<input type="button" value="Add Record" id="addRec" /><br/>
+<input type="button" value="Data Loading" id="loadData" /> 
+<div id = "time" ></div>
+ 
+
+
+
+</div>
+
 </div>
 </form>
 
@@ -35,7 +49,9 @@
 
 <h1>Entered Records:</h1>
 
+
 <ul id="enteredRecords">
+<div id="displayRecords">
 </ul>
 
 

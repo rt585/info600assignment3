@@ -11,6 +11,54 @@
             "id": "42",
             "major": "Computer Science",
             "startYear": 2012
+        },
+        {
+            "fullName": "TA Ravi Kumar",
+            "id": "511a65",
+            "major": "Information Science",
+            "startYear": 2019
+        },
+        {
+            "fullName": "Mac",
+            "id": "d0525b",
+            "major": "IS",
+            "startYear": 2019
+        },
+        {
+            "fullName": "Vamsi",
+            "id": "c8f0ad",
+            "major": "IS",
+            "startYear": 2019
+        },
+        {
+            "fullName": "Shubham",
+            "id": "73df2d",
+            "major": "IS",
+            "startYear": 2019
+        },
+        {
+            "fullName": "Priyatham",
+            "id": "605458",
+            "major": "IS",
+            "startYear": 2019
+        },
+        {
+            "fullName": "Sam",
+            "id": "2a4e4c",
+            "major": "IT",
+            "startYear": 2018
+        },
+        {
+            "fullName": "qwerty",
+            "id": "8f3508",
+            "major": "DS",
+            "startYear": 2018
+        },
+        {
+            "fullName": "ABC",
+            "id": "43f9d9",
+            "major": "DS",
+            "startYear": 2006
         }
     ]
 }
